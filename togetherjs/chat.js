@@ -8,7 +8,7 @@ define(["require", "jquery", "util", "session", "ui", "templates", "playback", "
   var Walkabout;
 
   session.hub.on("chat", function (msg) {
-    if(peers.Self.idle!="active");    //only show when not active
+    if(peers.Self.idle!="active")    //only show when not active
       displayNotification(msg);     //Use the default method to determine which method to use
     ui.chat.text({
       text: msg.text,
