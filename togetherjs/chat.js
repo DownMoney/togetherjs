@@ -63,7 +63,8 @@ define(["require", "jquery", "util", "session", "ui", "templates", "playback", "
       setTimeout(function(){notification.cancel();}, 5000);
     }
     else{
-        webkitNotifications.requestPermission();
+        webkitNotifications.requestPermission();            //Maybe in the future Chrome will allow JS to request permission
+        alert("You need to allow Chrome to display notifications; go to settings->Allow Chrome")
     }     
   }
 
