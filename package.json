@@ -1,6 +1,6 @@
 {
   "name": "togetherjs",
-  "version": "0.4.0a",
+  "version": "0.4.0",
   "main": "hub/server.js",
   "description": "Collaborative help system",
   "keywords": [],
@@ -30,7 +30,7 @@
     "grunt-contrib-watch": "~0.4.3",
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",
-    "nunjucks": "~0.1.8a",
+    "nunjucks": "~0.1.8",
     "marked": "~0.2.9",
     "docco": "~0.6.2",
     "highlight.js": "~7.3.0",
